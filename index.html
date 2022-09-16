@@ -4,24 +4,111 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" /><script src="https://kit.fontawesome.com/25b0c5c748.js" crossorigin="anonymous"></script>
+
     <title>Portfolio</title>
   </head>
   <body>
     <nav class="navbar">
+      <img class="logo" src="/images/logo.png" alt="logo">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Education</a></li>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Contact Me</a></li>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#aboutMe">About Me</a></li>
+        <li><a href="#contactMe">Contact Me</a></li>
       </ul>
     </nav>
-    <section id="home">
-        <h1 class="heading">Welcome!</h1>
-        <h1 class="heading">I´m Lina</h1>
-        <br></br>
-        <p>a Hamburg based Web Developerin</p>
+    <section class="footerLinks">
+      <div class="icons">
+      <a href=""><i class="fa-brands fa-github"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    <button class="followMe"><span> Follow me</span></button>
+    </div>
     </section>
-  </body>
+    <main>
+      <section class="containerOne">
+    <section id="home">
+      <div class="imageComp">
+      <img src="/images/comp4.avif" alt="comp">
+    </div>
+</section>
+    <div class="text">
+      <h1 class="heading">Welcome!</h1>
+      <h2 class="heading">I´m Lina</h2>
+      <br></br>
+      <p>a Hamburg based Web Developer. I build and maintenance websites. It's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience.</p>
+    </div>
+  </section>
+  <section class="about" id="about">
+    <h2>About</h2> 
+    <h3>Lina Simonovic</h3>
+    <img  class="lady" src="/images/rightone.avif" alt="lady">
+    <!-- <div>
+    <a href="mailto:linasimonovic2531@gmail.com"><button>contact now contact now</button><img src="" alt="contactMe"></a>
+  </div> -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero enim rem, a quaerat laboriosam earum recusandae quos reiciendis eius voluptatibus perferendis accusamus animi error ab illum iste assumenda voluptatem sed? Nihil odit dolores cumque nam sunt esse laborum harum dolore placeat omnis?</p>
+  </section>
+
+<!-- portfolio -->
+<center class="titleBlock">
+  <h1 class="Sitetitle">My Works</h1>
+</center>
+
+<div class="row">
+  
+  <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1">
+  
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <center>
+    <div class="displayWrapper">
+      <div class="displayBox">
+        <img src="/images/port_car.avif" alt="image1"/>
+        <p>Linatest</p>
+      </div>
+    </div>
+      <h4>Project 1</h4>
+    </center>
+  </div>
+  
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <center>
+    <div class="displayWrapper">
+      <div class="displayBox">
+        <img src="/images/port_chanel.avif" alt="image1"/>
+      </div>
+    </div>
+      <h4>Project 2</h4>
+    </center>
+  </div>
+    
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <center>
+    <div class="displayWrapper">
+      <div class="displayBox">
+        <img src="/images/port_hotel.avif" alt="image1"/>
+      </div>
+    </div>
+      <h4>Project 3</h4>
+    </center>
+  </div>
+  
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <center>
+    <div class="displayWrapper">
+      <div class="displayBox">
+        <img src="/images/leaves.avif" alt="image1"/>
+      </div>
+    </div>
+      <h4>Project 4</h4>
+    </center>
+  </div>
+  
+  </div>  
+    
+</div>
+
+
+</main>
+</body>
 </html>
