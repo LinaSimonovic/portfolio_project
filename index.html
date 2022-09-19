@@ -28,11 +28,11 @@
     </section>
     <main>
       <section class="containerOne">
-    <section id="home">
+    
       <div class="imageComp">
       <img src="/images/comp4.avif" alt="comp">
     </div>
-</section>
+
     <div class="text">
       <h1 class="heading">Welcome!</h1>
       <h2 class="heading">I´m Lina</h2>
@@ -51,64 +51,101 @@
   </section>
 
 <!-- portfolio -->
-<center class="titleBlock">
-  <h1 class="Sitetitle">My Works</h1>
-</center>
+<div class="titleBlock">
+  <h2 class="Sitetitle2">My Work</h2>
+</div>
 
-<div class="row">
+<div class="containerTwo">
   
-  <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1">
+  <div class="galleryBody">
   
-  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-    <center>
+  <div class="galleryCard">
+    <div>
     <div class="displayWrapper">
       <div class="displayBox">
         <img src="/images/port_car.avif" alt="image1"/>
-        <p>Linatest</p>
       </div>
     </div>
       <h4>Project 1</h4>
-    </center>
+  </div>
   </div>
   
-  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-    <center>
+  <div class="galleryCard1">
+    <div>
     <div class="displayWrapper">
       <div class="displayBox">
         <img src="/images/port_chanel.avif" alt="image1"/>
       </div>
     </div>
       <h4>Project 2</h4>
-    </center>
+  </div>
   </div>
     
-  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-    <center>
+  <div class="galleryCard2">
+    <div>
     <div class="displayWrapper">
       <div class="displayBox">
         <img src="/images/port_hotel.avif" alt="image1"/>
       </div>
     </div>
       <h4>Project 3</h4>
-    </center>
+  </div>
   </div>
   
-  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-    <center>
+  <div class="galleryCard3">
+    <div>
     <div class="displayWrapper">
       <div class="displayBox">
         <img src="/images/leaves.avif" alt="image1"/>
       </div>
     </div>
       <h4>Project 4</h4>
-    </center>
+  </div>
   </div>
   
   </div>  
     
 </div>
 
+<!--contact form-->
+<link href="contact-form.css" rel="stylesheet">
 
-</main>
+<div class="fcf-body">
+
+    <div id="fcf-form">
+    <h3 class="fcf-h3">Contact me</h3>
+
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+        
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+        </div>
+
+    </form>
+    </div>
+
+</div>
+
 </body>
 </html>
