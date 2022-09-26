@@ -15,19 +15,20 @@
         <li><a href="/index.html">Home</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#aboutMe">About Me</a></li>
+        <li><a href="#project">Project</a></li>
         <li><a href="#contactMe">Contact Me</a></li>
       </ul>
     </nav>
     <section class="footerLinks">
       <div class="icons">
-      <a href=""><i class="fa-brands fa-github"></i></a>
+      <a href="https://github.com/LinaSimonovic" target="_blank"><i class="fa-brands fa-github"></i></a>
       <a href="#"><i class="fa-brands fa-instagram"></i></a>
       <a href="#"><i class="fa-brands fa-facebook"></i></a>
     <button class="followMe"><span> Follow me</span></button>
     </div>
     </section>
     <main>
-      <section class="containerOne">
+      <section class="containerOne" id="portfolio">
     
       <div class="imageComp">
       <img src="/images/comp4.avif" alt="comp">
@@ -35,19 +36,16 @@
 
     <div class="text">
       <h1 class="heading">Welcome!</h1>
-      <h2 class="heading">I´m Lina</h2>
+      <h2 class="heading">I´m Lina,</h2>
       <br></br>
       <p>a Hamburg based Web Developer. I build and maintenance websites. It's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience.</p>
     </div>
   </section>
-  <section class="about" id="about">
+  <section class="about" id="aboutMe">
     <h2>About</h2> 
     <h3>Lina Simonovic</h3>
     <img  class="lady" src="/images/rightone.avif" alt="lady">
-    <!-- <div>
-    <a href="mailto:linasimonovic2531@gmail.com"><button>contact now contact now</button><img src="" alt="contactMe"></a>
-  </div> -->
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero enim rem, a quaerat laboriosam earum recusandae quos reiciendis eius voluptatibus perferendis accusamus animi error ab illum iste assumenda voluptatem sed? Nihil odit dolores cumque nam sunt esse laborum harum dolore placeat omnis?</p>
+    <p>I have a bachelor's degree in hotel management and one more year of specialization. Also in addition to regular school, I finished 7 years of music school and played classical music for the piano. Photography and painting are also my interests.</p>
   </section>
 
 <!-- portfolio -->
@@ -55,7 +53,7 @@
   <h2 class="Sitetitle2">My Work</h2>
 </div>
 
-<div class="containerTwo">
+<div class="containerTwo" id="project">
   
   <div class="galleryBody">
   
@@ -63,10 +61,10 @@
     <div>
     <div class="displayWrapper">
       <div class="displayBox">
-        <img src="/images/port_car.avif" alt="image1"/>
+        <img src="/images/Capture.PNG" alt="image1"/>
       </div>
     </div>
-      <h4>Project 1</h4>
+      <h4><a href="https://github.com/LinaSimonovic/tindoglandingpage" target="_blank">Tindog</a></h4>
   </div>
   </div>
   
@@ -74,10 +72,10 @@
     <div>
     <div class="displayWrapper">
       <div class="displayBox">
-        <img src="/images/port_chanel.avif" alt="image1"/>
+        <img src="/images/Capture1.PNG" alt="image1"/>
       </div>
     </div>
-      <h4>Project 2</h4>
+      <h4><a href="https://github.com/FbW-D05-1/uib_framework_bootstrap_benny-s-burgers-LinaSimonovic" target="_blank">Benny's Burger</a></h4>
   </div>
   </div>
     
@@ -85,10 +83,10 @@
     <div>
     <div class="displayWrapper">
       <div class="displayBox">
-        <img src="/images/port_hotel.avif" alt="image1"/>
+        <img src="/images/Capture2.PNG" alt="image1"/>
       </div>
     </div>
-      <h4>Project 3</h4>
+      <h4><a href="https://github.com/FbW-D05-1/uib-layout-neumorphic-music-player-LinaSimonovic" target="_blank">Music Player</a></h4>
   </div>
   </div>
   
@@ -96,10 +94,10 @@
     <div>
     <div class="displayWrapper">
       <div class="displayBox">
-        <img src="/images/leaves.avif" alt="image1"/>
+        <img src="/images/Capture3.PNG" alt="image1"/>
       </div>
     </div>
-      <h4>Project 4</h4>
+      <h4><a href="https://github.com/FbW-D05-1/uib-layout-travel-destination-form-LinaSimonovic" target="_blank">Travel page</a></h4>
   </div>
   </div>
   
@@ -108,44 +106,24 @@
 </div>
 
 <!--contact form-->
-<link href="contact-form.css" rel="stylesheet">
-
-<div class="fcf-body">
-
-    <div id="fcf-form">
-    <h3 class="fcf-h3">Contact me</h3>
-
-    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
-        
-        <div class="fcf-form-group">
-            <label for="Name" class="fcf-label">Your name</label>
-            <div class="fcf-input-group">
-                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
-            </div>
+<div class="fcf-body" id="contactMe">
+  <div class="container">
+    <h3>Contact me</h3>
+    <form action="#">
+​
+        <input type="text" placeholder="&#xf007 	&nbsp;Fullname ">
+        <input type="email" placeholder="&#xf0e0 	&nbsp;Email">
+        <input type="text" placeholder="&#xf095	&nbsp; Phone">
+        <textarea name="area" id="area" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <div>
+            <input type="checkbox" name="send" id="send">
+            <label for="send">Send a copy to your Email</label>
         </div>
-
-        <div class="fcf-form-group">
-            <label for="Email" class="fcf-label">Your email address</label>
-            <div class="fcf-input-group">
-                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-            </div>
-        </div>
-
-        <div class="fcf-form-group">
-            <label for="Message" class="fcf-label">Your message</label>
-            <div class="fcf-input-group">
-                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-            </div>
-        </div>
-
-        <div class="fcf-form-group">
-            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
-        </div>
-
+​
+        <button type="submit"> <a href="#"><span> Send Email</span></a></button>
+        <button><a href="../index.html"><span>Back Home</a></span></button>
     </form>
-    </div>
-
+​</div>
 </div>
-
 </body>
 </html>
